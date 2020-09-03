@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "TNG RTD 4"
-Date "2020-08-31"
+Title "TNG PTC 4"
+Date "2020-09-01"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -2208,4 +2208,6 @@ VCCPWRA
 Wire Wire Line
 	7550 4650 7600 4650
 Connection ~ 7600 4650
+NoConn ~ 1450 4500
+NoConn ~ 1450 4400
 $EndSCHEMATC
