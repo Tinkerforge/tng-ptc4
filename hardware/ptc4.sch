@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "TNG PTC 4"
-Date "2020-09-01"
-Rev "1.0"
-Comp ""
-Comment1 ""
-Comment2 ""
+Date "2020-09-04"
+Rev "1.1"
+Comp "Tinkerforge GmbH"
+Comment1 "Licensed under CERN OHL v.1.1"
+Comment2 "Copyright (©) 2020, B.Nordmeyer <bastian@tinkerforge.com>"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -183,7 +183,7 @@ L tinkerforge:CRYSTAL_3225 X101
 U 1 1 5AE0BE3D
 P 1950 7400
 F 0 "X101" H 1750 7650 60  0000 C CNN
-F 1 "TBD" H 2000 7150 60  0000 C CNN
+F 1 "8MHz" H 2000 7150 60  0000 C CNN
 F 2 "kicad-libraries:CRYSTAL_3225" H 1950 7400 60  0001 C CNN
 F 3 "" H 1950 7400 60  0000 C CNN
 	1    1950 7400
@@ -194,7 +194,7 @@ L tinkerforge:Cs C108
 U 1 1 5AE0C1B6
 P 2100 7100
 F 0 "C108" H 2125 7175 31  0000 L CNN
-F 1 "TBD" H 2125 7025 31  0000 L CNN
+F 1 "12pF" H 2125 7025 31  0000 L CNN
 F 2 "C0402F" H 2100 7100 60  0001 C CNN
 F 3 "" H 2100 7100 60  0000 C CNN
 	1    2100 7100
@@ -205,7 +205,7 @@ L tinkerforge:Cs C109
 U 1 1 5AE0C6D7
 P 2100 7700
 F 0 "C109" H 2125 7775 31  0000 L CNN
-F 1 "TBD" H 2125 7625 31  0000 L CNN
+F 1 "12pF" H 2125 7625 31  0000 L CNN
 F 2 "C0402F" H 2100 7700 60  0001 C CNN
 F 3 "" H 2100 7700 60  0000 C CNN
 	1    2100 7700
@@ -459,8 +459,8 @@ L tinkerforge:CPs C111
 U 1 1 5AEB740F
 P 5100 1150
 F 0 "C111" H 5125 1225 31  0000 L CNN
-F 1 "TBD" H 5125 1075 31  0000 L CNN
-F 2 "kicad-libraries:ELKO_83" H 5100 1150 60  0001 C CNN
+F 1 "100µF" H 5125 1075 31  0000 L CNN
+F 2 "kicad-libraries:ELKO_63" H 5100 1150 60  0001 C CNN
 F 3 "" H 5100 1150 60  0000 C CNN
 	1    5100 1150
 	1    0    0    -1  
@@ -1897,8 +1897,8 @@ L tinkerforge:CPs C120
 U 1 1 5F9951AB
 P 4900 2250
 F 0 "C120" H 4925 2325 31  0000 L CNN
-F 1 "TBD" H 4925 2175 31  0000 L CNN
-F 2 "kicad-libraries:ELKO_83" H 4900 2250 60  0001 C CNN
+F 1 "100µF" H 4925 2175 31  0000 L CNN
+F 2 "kicad-libraries:ELKO_63" H 4900 2250 60  0001 C CNN
 F 3 "" H 4900 2250 60  0000 C CNN
 	1    4900 2250
 	1    0    0    -1  
@@ -2210,4 +2210,6 @@ Wire Wire Line
 Connection ~ 7600 4650
 NoConn ~ 1450 4500
 NoConn ~ 1450 4400
+Text Notes 3100 4850 0    50   ~ 0
+Copyright Tinkerforge GmbH 2020.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.1.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.1. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.1 for applicable\nconditions
 $EndSCHEMATC

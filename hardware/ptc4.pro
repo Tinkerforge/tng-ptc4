@@ -1,4 +1,4 @@
-update=Mo 31 Aug 2020 09:27:16 CEST
+update=Fr 04 Sep 2020 17:20:09 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=rtd4.net
+LastNetListRead=ptc4.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
